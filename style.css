@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav{
+    height: 3rem;
+    display: grid;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.nav-center {
+    color: black;
+   
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+   ul li{
+    color: black;
+   }
+
+
+   main {
+   margin-top: 10%;
+    display: grid;
+    place-items: center;
+  }
+  .container {
+    text-align: center;
+  }
+  
+  .btn{
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    padding: 15px;
+  }
+ 
+
+  .btn-hero:hover {
+    color: white;
+    background-color: black;
+   
+  }

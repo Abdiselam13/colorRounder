@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 25px;
+}
+button{
+    padding: 10px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: skyblue;
+    color: white;
+
+}
+
+button:hover{
+    background-color: black;
+    
+}
